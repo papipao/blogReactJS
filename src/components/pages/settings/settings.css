@@ -1,0 +1,87 @@
+.settings {
+  display: flex;
+}
+
+.settings--wrapper {
+  flex: 9;
+  padding: 1.25rem;
+}
+
+.settings--hide {
+  display: none;
+}
+
+.settings--title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings--updateTitle {
+  color: lightcoral;
+  margin-bottom: 1.25rem;
+  font-size: 1.875rem;
+}
+
+.settings--deleteTitle {
+  color: red;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.settings--form {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings--profilePic {
+  display: flex;
+  align-items: center;
+  margin: 0.625rem 0;
+}
+
+.settings--profilePic > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.settings--icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: lightcoral;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.625rem;
+  cursor: pointer;
+}
+
+.settings--form > label {
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.settings--form > input {
+  color: #444;
+  margin: 0.625rem 0;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid lightgrey;
+}
+
+.settings--submit {
+  width: 150px;
+  align-self: center;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: teal;
+  padding: 0.625rem;
+  margin-top: 1.25rem;
+  cursor: pointer;
+}
